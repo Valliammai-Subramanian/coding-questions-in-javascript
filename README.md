@@ -10,12 +10,12 @@ The repository [https://github.com/Valliammai-Subramanian/coding-questions-in-ja
 ## Questions
 More programming challenge questions in Javascript will be added as time permits. Let me know if there is any particular problem you would like to have solved here.
 
-Implement a client side caching layer using Javascript. The caching layer should be created as a "Cache" class with methods that call the API only when specific requirements are met, and return the cached response data.
+Implement a client side caching layer using Javascript. The caching layer should be created as a <b>Cache</b> class with methods that call the API only when specific requirements are met, and return the cached response data.
 
 ## Requirements
 1. The <b>Cache</b> class should contain two public methods:
     <b>get(identifier, force)</b> returns data from the API, <b>identifier</b> (string): identifier of the fetched content; <b>force</b> (Boolean): optional value that, if set to <b>true</b>, states that the data must be fetched.
-    <b>setCacheRefresh(ttl)</b> sets the cache refresh time, <b>ttl</b> (number): indicates the time when data stored in the cache is considered state (in <b>as</b>). The default <b>ttl</b> value should be <b>1000ms</b>.
+    <b>setCacheRefresh(ttl)</b> sets the cache refresh time, <b>ttl</b> (number): indicates the time when data stored in the cache is considered state (in <b>ms</b>). The default <b>ttl</b> value should be <b>1000ms</b>.
 
 2. The constructor of the <b>Cache</b> class accepts one parameter which is an instance of the API service.
 
@@ -30,8 +30,8 @@ Implement a client side caching layer using Javascript. The caching layer should
 The <b>fetch</b> method from <b>ApiService</b> returns unique data for different <b>identifiers</b>.
 
 ## Hints
-Do not change the wat the class is exported.
+Do not change the way the class is exported.
 For the method names, follow the naming conventions described above.
 You can assume that the API never fails.
 
-Link to solution [https://github.com/Valliammai-Subramanian/coding-questions-in-javascript/tree/main/Caching].
+Link to solution [https://github.com/Valliammai-Subramanian/coding-questions-in-javascript/tree/main/ClientSideCaching].
